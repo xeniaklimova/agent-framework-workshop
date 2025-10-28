@@ -35,6 +35,19 @@ This project framework provides the following features:
 2. cd [repository name]
 3. ...
 
+## Notebooks
+
+This project includes interactive Jupyter notebooks to help you get started:
+
+- **[Notebook Name 1]** - Description of what this notebook covers
+- **[Notebook Name 2]** - Description of what this notebook covers
+
+To run the notebooks:
+
+1. Install Jupyter: `pip install jupyter`
+2. Navigate to the notebooks directory: `cd notebooks`
+3. Launch Jupyter: `jupyter notebook`
+4. Open any notebook file (.ipynb) in your browser
 
 ## Demo
 
