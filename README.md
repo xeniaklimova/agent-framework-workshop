@@ -10,6 +10,9 @@ Welcome to the Microsoft Agent Framework workshop! This project is designed to h
 
 - GitHub Codespaces
 - (or run locally with [Python](https://www.python.org/) 3.9+ installed, see instructions below if needed)
+- **Azure subscription**
+
+You must have an active Azure subscription and be able to log into the Azure Portal to use Azure services in these labs. Don't have a subscription? Most of the content in these labs provide thorough walkthroughs and explanations of the code and output, so whether or not you are actually able to run the labs, you can still learn a lot by reading through them!
 - An Azure OpenAI API key or OpenAI API key (For production ready deployments, you should refrain from using keys, and switch to [managed identities](https://learn.microsoft.com/entra/identity/managed-identities-azure-resources/overview))
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [UV package manager](https://docs.astral.sh/uv/getting-started/installation/)
@@ -103,26 +106,7 @@ Start with the first exercise and progress through them sequentially.
 Use documentation on https://learn.microsoft.com/en-us/agent-framework/
 to help you with getting up to speed and figuring out what steps to take to complete the exercises.
 
-## Project Structure 
 
-```
-agent-framework-workshop/
-├── 01-single-agents/    
-│   ├── 01.1-single-agents.ipynb      # Agent fundamentals
-│   ├── 01.2-sigle-agent-mcp.ipynb    # MAF + MCP example
-├── 02-workflows/                     # Agent creation and orchestration
-│   ├── 02.1-intro-workflows.ipynb    # Intro to core concepts
-│   ├── 02.2-orchestrations.ipynb     # Multi-agent communication
-├── mcp/
-│   ├── contoso.db   
-│   ├── mcp_server.py 
-├── exercises/                       
-│   └── 03-human-in-the-loop.ipynb    # [TODO] Need to add prereqs - workflow states, request/response patterns
-├── devui_samples/               # [IN PROGRESS] Complete runnable scripts with DevUI added
-│   ├── 1-chatbot.py             # Simple chatbot workflow (from SK 4.1)
-│   ├── 2-content.py             # Content creation workflow (from SK 4.1) 
-└── .env.example                 # Environment variables template
-```
 
 
 
