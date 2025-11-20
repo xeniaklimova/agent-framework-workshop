@@ -106,9 +106,23 @@ Start with the first exercise and progress through them sequentially.
 Use documentation on https://learn.microsoft.com/en-us/agent-framework/
 to help you with getting up to speed and figuring out what steps to take to complete the exercises.
 
+## Project Structure
 
-
-
+```
+agent-framework-workshop/
+├── 01-single-agents/    
+│   ├── 01.1-single-agents.ipynb      # Agent fundamentals
+│   ├── 01.2-sigle-agent-mcp.ipynb    # MAF + MCP example
+├── 02-workflows/                     # Agent creation and orchestration
+│   ├── 02.1-intro-workflows.ipynb    # Intro to core concepts
+│   ├── 02.2-orchestrations.ipynb     # Multi-agent orchestrations
+├── mcp/
+│   ├── contoso.db   
+│   ├── mcp_server.py 
+├── use-cases/                       
+│   └── 1-rag-agent              # Minimal sample on Azure AI Search + single MAF agent
+└── .env.example                 # Environment variables template
+```
 
 ---
 
