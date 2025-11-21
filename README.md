@@ -73,17 +73,17 @@ This adds your virtual environment as a selectable kernel in Jupyter. You might 
 
 - Navigate to `models + endpoints`
 
-<img src="assets/image.png" alt="Model deployments" style= "width:70%, height:auto; margin:20px auto">
+<img src="readme_images/image.png" alt="Model deployments" style= "width:70%, height:auto; margin:20px auto">
 
 - Deploy a new model (gpt-4o for this workshop)
 
 
-<img src="assets/image-1.png" alt="Model deployments" style="width:50%; height:40%; margin:20px auto">
+<img src="readme_images/image-1.png" alt="Model deployments" style="width:50%; height:40%; margin:20px auto">
 
 6. Get the API endpoint and key from:
 
 
-<img src="assets/image-2.png" alt="API key" style="width:70%; height:auto; margin:20px auto">
+<img src="readme_images/image-2.png" alt="API key" style="width:70%; height:auto; margin:20px auto">
 
 
 7. Copy and paste the deployment name, endpoint and API key into a `.env` file. You can find an example in `.env.example`.
@@ -119,8 +119,6 @@ agent-framework-workshop/
 ├── mcp/
 │   ├── contoso.db   
 │   ├── mcp_server.py 
-├── use-cases/                       
-│   └── 1-rag-agent              # Minimal sample on Azure AI Search + single MAF agent
 └── .env.example                 # Environment variables template
 ```
 
